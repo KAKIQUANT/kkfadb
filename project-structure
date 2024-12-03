@@ -1,0 +1,21 @@
+kkfadb/
+├── src/
+│   ├── factors/
+│   │   ├── __init__.py
+│   │   ├── base.py          # Base factor class definitions
+│   │   ├── technical/       # Technical factors
+│   │   ├── fundamental/     # Fundamental factors
+│   │   └── alternative/     # Alternative data factors
+│   ├── storage/
+│   │   ├── __init__.py
+│   │   ├── clickhouse.py    # ClickHouse storage implementation
+│   │   └── interface.py     # Storage interface definition
+│   ├── validation/
+│   │   ├── __init__.py
+│   │   └── validators.py    # Factor validation utilities
+│   └── visualization/
+│       ├── __init__.py
+│       └── plots.py         # Factor visualization tools
+├── tests/
+├── requirements.txt
+└── setup.py 
